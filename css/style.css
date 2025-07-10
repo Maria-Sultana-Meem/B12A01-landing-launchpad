@@ -38,10 +38,16 @@
     color: #000000;
 }
 .container{
-    max-width: 90%;
+    max-width: 80%;
     width: 100%;
     margin: 0 auto;
    padding-top: 50px;
+}
+.bg-color{
+    background-color: #F5F8FF;
+}
+section{
+    margin-top: 100px;
 }
 
 /* ............header styles.......... */
@@ -73,4 +79,63 @@ header nav{
 }
 .banner button{
     margin-top: 30px;
+}
+/* .........main styles...... */
+
+.action-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.action-content{
+    width: 30%;
+    
+}
+.action-content p{
+    margin-top: 20px;
+    line-height: 1.5;
+}
+.action-content h1{
+    font-size: 40px;
+
+}
+.action-content button{
+    margin-top: 20px;
+}
+.action-image{
+    width: 30%;
+    
+}
+.action-image img{
+    width: 100%;
+    border-radius: 30px;
+}
+.productive{
+    background-color: #E4E6FF;
+    border-radius: 20px;
+    padding: 50px 30px;
+    margin-top: 100px;
+    
+}
+.productive h1{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.productive-user{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.productive-user .user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.productive-user h1{
+    color: #4E47FF;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-bottom: 0px;
 }
