@@ -41,6 +41,7 @@
     max-width: 90%;
     width: 100%;
     margin: 0 auto;
+   padding-top: 50px;
 }
 
 /* ............header styles.......... */
@@ -48,8 +49,9 @@ header{
     background-image: url(../Assets/Hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 600px;
 }
-header h1{
+header nav h1{
     color: #4E47FF;
     font-weight: bolder;
     font-size: 34px;
@@ -58,4 +60,17 @@ header nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.banner{
+    margin-top: 100px;
+    text-align: center;
+    width: 60%;
+    line-height: 1.3;
+}
+.banner h1{
+    font-size: 50px;
+    
+}
+.banner button{
+    margin-top: 30px;
 }
