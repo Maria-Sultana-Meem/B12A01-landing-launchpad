@@ -139,3 +139,87 @@ header nav{
     font-size: 50px;
     margin-bottom: 0px;
 }
+/* ..........user say........ */
+.user-say{
+    margin-top: 100px;
+    text-align: center;
+}
+.card{
+    padding: 30px;
+    text-align: left;
+    background-color: #FAFCFF;
+    border-radius: 20px;
+    
+}
+.card p,.card h3{
+    line-height: 1.7;
+}
+.user-card{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 20px;
+}
+.avatar{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.avatar img{
+    border-radius: 50%;
+}
+.avater-title{
+    text-align: left;
+}
+
+/* ..........focus styles......... */
+.focus{
+    margin-top: 100px;
+    padding: 50px;
+    text-align: center;
+    line-height: 2.5;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+.focus button{
+    margin-top: 20px;
+}
+.focus-image img{
+    border-radius: 20px;
+    margin-top: 40px;
+}
+/* .........get in touch...... */
+.get-in-touch{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form-title{
+    width: 40%;
+    
+}
+.form-title h1{
+    font-size: 60px;
+
+}
+.form{
+    width: 40%;
+}
+form input{
+    width: 430px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+}
+form textarea{
+    width: 430px;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+}
+form button{
+    width: 430px;
+    margin-top: 20px;
+}
